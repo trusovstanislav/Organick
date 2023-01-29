@@ -304,27 +304,96 @@ margin-top: 50px;
 
 .testimonial_section{
 }
-.testimonial_section_container img {
-}
 .testimonial_section_container {
                                                              fh
   width: 1440px;
-  height: 1000px;
+  height: 1248px;
   background-image: url(/images/tesimonial.png);
                                                             fgj
 }
 .testimonial_section_content {
-  position: relative;
+
 }
 .testimonial_section_content_top {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial_section_content_top h2 {
+  padding-top: 130px;
+}
+.testimonial_section_content_top_consumer {
+  margin-top: 60px;
+  height: 115px;
+  width: 115px;
+}
+.testimonial_section_content_top_stars {
+  margin-top: 18px;
+  height: 27px;
+  width: 123px;
+}
+.testimonial_section_content_top p {
   text-align: center;
-  top: 0px;
-  left: calc(50% - 483px);
+}
+.testimonial_section_content_top h3 {
+  padding-top: 23px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}
+.testimonial_section_content_top_p {
+  margin-top: 30px;
+}
+.testimonial_section_content_top h5 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #525C60;
 }
 .testimonial_section_content_string {
-  width: 966px;
+  text-align: center;
+  width: 75%;
   border: 1px solid #E0E0E0;
+  margin-top: 96px;
+}
+.testimonial_section_content_bottom {
+  padding-top: 106px;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+}
+.testimonial_section_content_bottom_part {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.border1{
+  width: 240px;
+  height: 240px;
+  left: calc(50% - 240px/2 + 1px);
+  top: calc(50% - 240px/2 + 1px);
+  border: 5px solid #FFFFFF;
+  border-radius: 200px;
+}
+.border2{
+  height: 250px;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+  background: #F1F1F1;
+  border: 6px solid #7EB693;
+  border-radius: 200px;
 }
 
 
