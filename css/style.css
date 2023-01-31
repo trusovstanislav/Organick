@@ -107,6 +107,10 @@
   height: 70px;
   align-items: center;
 }
+.cart_button:hover{
+  background: #7EB693;
+  transition-duration: 1s;
+}
 .cart_button img {
   margin: 7px 11px;
 }
@@ -130,6 +134,12 @@
   border: 1px solid #EFD372;
   border-radius: 16px;
 }
+.button:hover{
+  background: #7EB693;
+  border: 1px solid #7EB693;
+  transition-duration: 1s;
+  transform: scale(1.05);
+}
 .button a {
   text-decoration: none;
   font-family: 'Roboto';
@@ -142,7 +152,7 @@
   color: #274C5B;
   display: flex;
   align-items: center;
-  padding: 22px 22px 22px 33px;
+  padding: 15px 22px 22px 33px;
 }
 .button a img{
   margin-left: 25px;
@@ -204,6 +214,10 @@
 }
 .left, .right {
   position: relative;
+}
+.left:hover, .right:hover{
+transform: scale(1.015);
+transition-duration: 0.3s;
 }
 .left_text h2 {
   color: #FFFFFF;
@@ -467,6 +481,10 @@ margin-top: 50px;
   flex-wrap: wrap;
   padding: 30px;
 }
+.offer_row_item:hover{
+  transform: scale(1.03);
+  transition-duration: 1s;
+}
 .offer_row_name h5 {
   background: #274C5B;
   border-radius: 8px;
@@ -668,6 +686,9 @@ margin-top: 50px;
   justify-content: center;
   padding: 56px 30px 86px 30px;
 }
+.footer_content p:hover{
+  color: #7EB693;
+}
 .footer_content_left {
   text-align: end;
   padding-right: 19px;
@@ -703,6 +724,10 @@ margin-top: 50px;
 .media {
   display: flex;
   justify-content: center;
+}
+.media img:hover{
+  transform: scale(1.2);
+  transition-duration: 0.5s;
 }
 .media a {
   padding: 60px 10px;
@@ -740,3 +765,8 @@ margin-top: 50px;
   color: #525C60;
 }
 
+.footer_map {
+  text-align: center;
+  margin: 0 auto;
+  width: 1440px;
+}
